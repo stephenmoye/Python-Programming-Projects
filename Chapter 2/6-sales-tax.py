@@ -12,7 +12,7 @@ countyTax = price * .025
 totalTax = stateTax + countyTax
 grandTotal = price + totalTax
 
-print("State tax:", stateTax)
-print("County tax: ", countyTax)
-print("Total tax: ", totalTax)
-print("Grand total: ", grandTotal)
+print("State tax:", format(stateTax, '.2f'))
+print("County tax: ", format(countyTax, '.2f'))
+print("Total tax: ", format(totalTax, '.2f'))
+print("Grand total: ", format(grandTotal, '.2f'))

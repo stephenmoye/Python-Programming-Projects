@@ -8,4 +8,6 @@
 tempC = float(input("Enter the temperature in Celsius "))
 tempF = (tempC * 9/5) + 32
 
-print(tempC, "C equals", tempF, "F")
+# end= allows the characters in the ' ' to be added to the end of the output, without the space
+print(tempC, end='C equals ')
+print(tempF, end='F')

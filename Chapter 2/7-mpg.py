@@ -9,4 +9,4 @@ gallonsOfGas = float(input('How many gallons gas did you use? '))
 
 mpg = milesDriven / gallonsOfGas
 
-print("Miles per gallon:", mpg)
+print("Miles per gallon:", format(mpg, '.2f'))

@@ -7,11 +7,11 @@
 # The distance the car will travel in 10 hours
 # The distance the car will travel in 15 hours
 
-speed = 70
-time1 = 6
-time2 = 10
-time3 = 15
+SPEED = 70
+TIME1 = 6
+TIME2 = 10
+TIME3 = 15
 
-print("The car will travel", speed * time1, "miles in", time1, "hours")
-print("The car will travel", speed * time2, "miles in", time2, "hours")
-print("The car will travel", speed * time3, "miles in", time3, "hours")
+print("The car will travel", SPEED * TIME1, "miles in", TIME1, "hours")
+print("The car will travel", SPEED * TIME2, "miles in", TIME2, "hours")
+print("The car will travel", SPEED * TIME3, "miles in", TIME3, "hours")

@@ -13,6 +13,6 @@ subtotal = item1 + item2 + item3 + item4 + item5
 tax = subtotal * .07
 total = subtotal + tax
 
-print("Subtotal:", subtotal)
-print("Sales tax: ", tax)
-print("Total: ", total)
+print("Subtotal:", format(subtotal, '.2f'))
+print("Sales tax: ", format(tax, '.2f'))
+print("Total: ", format(total, '.2f'))

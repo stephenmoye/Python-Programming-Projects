@@ -9,6 +9,6 @@ tip = mealPrice * .18
 salesTax = mealPrice * .07
 total = mealPrice + tip + salesTax
 
-print("Amount tipped:", tip)
-print("Sales tax: ", salesTax)
-print("Grand total: ", total)
+print("Amount tipped:", format(tip, '.2f'))
+print("Sales tax: ", format(salesTax, '.2f'))
+print("Grand total: ", format(total, '.2f'))
