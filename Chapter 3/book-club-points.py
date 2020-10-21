@@ -9,8 +9,7 @@
 # Write a program that asks the user to enter the number of booksPurchased that he or she has purchased
 # this month, then displays the number of points awarded.
 
-booksPurchased = int(
-    input("How many books did you purchase this month? "))
+booksPurchased = int(input("How many books did you purchase this month? "))
 
 if booksPurchased < 2:
     print("You purchased", booksPurchased, "books, and earned 0 points.")
