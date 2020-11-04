@@ -5,4 +5,11 @@
 # number of bugs collected.
 
 
-bugs = int(input('How many bugs did you collect on day'))
+bugs = 0
+day = 0
+
+while day < 5:
+  bugs += int(input('How many bugs did you collect today? '))
+  day += 1
+
+print('Total bugs collected: ', bugs)
