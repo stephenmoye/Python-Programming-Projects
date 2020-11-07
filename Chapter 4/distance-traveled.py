@@ -11,3 +11,11 @@
 # 1 40
 # 2 80
 # 3 120
+
+speed = int(input("How fast is the train traveling? "))
+hours = int(input("How many hours has the train traveled? "))
+
+print("HOUR | DISTANCE")
+for num in range(1, hours + 1):
+  distance = num * speed
+  print(num, '\t', distance, "mi")
