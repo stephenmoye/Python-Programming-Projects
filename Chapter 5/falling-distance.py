@@ -9,39 +9,22 @@
 # that time interval. Write a program that calls the function in a loop that passes the values 1
 # through 10 as arguments and displays the return value.
 
+G = 9.8
+distance = 0
 
 
-def falling_distance():
-  
+def main(time):
+    falling_distance(time)
 
 
-
-  score = 0
-total = 0
-
-
-def calc_average(score, total):
-    for tests in range(5):
-        score = int(input("What is the score of test?"))
-        total += score
-    average = total / 5
-    return letter_grade(average)
+def falling_distance(time):
+    distance = (G / 2) * (time ** 2)
+    ten_seconds(distance)
 
 
-def letter_grade(average):
-    if average > 90:
-        grade = "A"
-    elif average > 80:
-        grade = "B"
-    elif average > 70:
-        grade = "C"
-    elif average > 60:
-        grade = "D"
-    else:
-        grade = "F"
-
-    print("Your average score of", average, "equals", grade)
+def ten_seconds(distance):
+    for d in range(1, 10):
+        print(d * distance)
 
 
-calc_average(score, total)
-
+main(1)
