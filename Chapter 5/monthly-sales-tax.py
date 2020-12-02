@@ -21,9 +21,9 @@ def get_sales():
 def tax(county, state, sales):
   countyTax = sales * county
   stateTax = sales * state
-  totalTax(countyTax, stateTax, sales)
+  totalTax(countyTax, stateTax)
 
-def totalTax(county, state, sales):
+def totalTax(county, state):
     print("County Tax: ", county)
     print("State Tax: ", state)
     print("Grand Total: ", state + county)
