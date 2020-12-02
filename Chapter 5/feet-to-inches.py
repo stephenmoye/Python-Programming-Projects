@@ -4,3 +4,11 @@
 # feet as an argument and returns the number of inches in that many feet. Use the function in a
 # program that prompts the user to enter a number of feet then displays the number of inches in
 # that many feet.
+
+
+def feet_to_inches():
+    feet = int(input("How many feet? "))
+    inches = feet * 12
+    print (feet, "feet is",inches, "inches")
+
+feet_to_inches()
