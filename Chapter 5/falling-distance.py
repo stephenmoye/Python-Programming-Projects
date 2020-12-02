@@ -10,8 +10,6 @@
 # through 10 as arguments and displays the return value.
 
 G = 9.8
-distance = 0
-
 
 def main(time):
     falling_distance(time)
