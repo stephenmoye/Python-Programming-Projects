@@ -1,11 +1,16 @@
-mass = int(input('What is the mass of your object in kg? '))
-weight = mass * 9.8
+def main():
+    a = [10,5,8,7]
+    n1= function1(a)
+    print (n1, a[2])
+    function2 (a)    
+    print (a)
 
-if weight > 500:
-    print(weight, "Newtons. Your object is too heavy.")
-elif weight > 200 and weight < 400:
-    print(weight, "Newtons. Your object is perfect.")
-elif weight < 100:
-    print(weight, "Newtons. Your object is too light.")
-else:
-    print(weight, "Newtons. We are indifferent to the weight of your object.")
+def function1(list1):
+    x = list1[2] + list1[0]
+    return x
+    
+def function2 (c):
+     c[2] = 37
+     c[1] = 67
+   
+main()
