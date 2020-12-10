@@ -5,3 +5,32 @@
 # The highest number in the list
 # The total of the numbers in the list
 # The average of the numbers in the list
+
+
+numbersList = []
+
+
+def main():
+    for month in range(0, 20):
+        print("Enter any number")
+        numbers = int(input())
+        numbersList.append(numbers)
+
+    analyze(numbersList)
+
+
+def analyze(numbers):
+    total = 0
+
+    for nums in range(0, 20):
+        total = total + numbers[nums]
+
+    average = total / 20
+
+    print("Lowest number:", min(numbers))
+    print("Highest number:", max(numbers))
+    print("Total:", total)
+    print("Average:", average)
+
+
+main()
